@@ -43,6 +43,7 @@ As the list goes on, the books become increasingly more complicated and mathemat
 - [Designing New Cryptography for Non-Standard Threat Models](https://soatok.blog/2020/09/09/designing-new-cryptography-for-non-standard-threat-models/)
 - [Why I have settled on XChaCha20+Blake3 as the AE suite of choice for my projects](https://mccarty.io/chacha20-blake3/)
 - [Threema: Three Strikes, You’re Out](https://soatok.blog/2021/11/05/threema-three-strikes-youre-out/#invisible-salamanders-with-group-messaging)
+- [Invisible Salamanders in AES-GCM-SIV](https://keymaterial.net/2020/09/07/invisible-salamanders-in-aes-gcm-siv/)
 - [When a KEM is not enough](https://neilmadden.blog/2021/02/16/when-a-kem-is-not-enough/)
 - [Lucid Multi-Key Deputies Require Commitment](https://scottarc.blog/2022/10/17/lucid-multi-key-deputies-require-commitment/)
 - [libsodium Robustness](https://doc.libsodium.org/secret-key_cryptography/aead#robustness)
