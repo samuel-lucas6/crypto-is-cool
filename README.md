@@ -7,9 +7,9 @@ As the list goes on, the books become increasingly more complicated and mathemat
 - [Real-World Cryptography](https://www.manning.com/books/real-world-cryptography) by [David Wong](https://www.davidwong.fr/)
 - [Crypto 101](https://www.crypto101.io/) by [lvh](https://www.lvh.io/)
 - [Cryptography Engineering](https://www.schneier.com/books/cryptography-engineering) by [Niels Ferguson](https://en.wikipedia.org/wiki/Niels_Ferguson), [Bruce Schneier](https://www.schneier.com/), and [Tadayoshi Kohno](https://homes.cs.washington.edu/~yoshi/)
+- [Crypto Dictionary](https://www.crypto-dictionary.com/) by [Jean-Philippe Aumasson](https://www.aumasson.jp/)
 - [Everyday Cryptography](https://www.isg.rhul.ac.uk/~martin/everydaycryptography.html) by [Keith Martin](https://www.isg.rhul.ac.uk/~martin/)
 - [Serious Cryptography](https://nostarch.com/seriouscrypto) by [Jean-Philippe Aumasson](https://www.aumasson.jp/)
-- [Crypto Dictionary](https://www.crypto-dictionary.com/) by [Jean-Philippe Aumasson](https://www.aumasson.jp/)
 - [Understanding Cryptography](https://www.crypto-textbook.com/) by [Christof Paar](https://www.crypto-textbook.com/christof_paar.php) and [Jan Pelzl](https://www.crypto-textbook.com/jan_pelzl.php)
 - [The Joy of Cryptography](https://joyofcryptography.com/) by [Mike Rosulek](https://web.engr.oregonstate.edu/~rosulekm/)
 - [Introduction to Modern Cryptography](https://www.cs.umd.edu/~jkatz/imc.html) by [Jonathan Katz](http://www.cs.umd.edu/~jkatz) and [Yehuda Lindell](http://www.cs.biu.ac.il/~lindell/)
@@ -28,15 +28,12 @@ As the list goes on, the books become increasingly more complicated and mathemat
 - [Message Franking via Committing Authenticated Encryption](https://eprint.iacr.org/2017/664)
 - [Security of Symmetric Primitives under Incorrect Usage of Keys](https://eprint.iacr.org/2017/288)
 
-#### Q&A
-- [Do I need a key committing AEAD to be random key robust?](https://old.reddit.com/r/crypto/comments/opm10n/do_i_need_a_key_committing_aead_to_be_random_key/)
-- [Understanding the impact of partitioning oracle attacks on stream ciphers](https://crypto.stackexchange.com/questions/88716/understanding-the-impact-of-partitioning-oracle-attacks-on-stream-ciphers)
-- [Understanding the impact of partitioning oracle attacks on production deployments of ChaCha/Salsa](https://old.reddit.com/r/crypto/comments/m0gc2z/understanding_the_impact_of_partitioning_oracle/)
-- [My breakdown on Partition Oracle Attacks](https://old.reddit.com/r/crypto/comments/n17k3t/my_breakdown_on_partition_oracle_attacks/)
-- [Encrypting h(k) for defeating partition oracle attacks](https://crypto.stackexchange.com/questions/88745/encrypting-hk-for-defeating-partition-oracle-attacks)
-- [Do CCM and EAX provide key commitment?](https://crypto.stackexchange.com/questions/87779/do-ccm-and-eax-provide-key-commitment)
-- [Encrypt-then-HMAC with a single key is secure?](https://crypto.stackexchange.com/questions/88736/encrypt-then-hmac-with-a-single-key-is-secure)
-- [Streaming Interface for authenticated encryption?](https://github.com/LoupVaillant/Monocypher/issues/218)
+#### IETF
+- [Encrypt-then-MAC for Committing AEAD (cAEAD)](https://github.com/samuel-lucas6/draft-lucas-generalised-committing-aead)
+- [The AEGIS family of authenticated encryption algorithms](https://datatracker.ietf.org/doc/html/draft-irtf-cfrg-aegis-aead-00#name-introduction-2)
+- [Properties of AEAD algorithms](https://www.ietf.org/archive/id/draft-bozhko-cfrg-aead-properties-00.html#name-key-commitment)
+- [The OPAQUE Asymmetric PAKE](https://datatracker.ietf.org/doc/html/draft-irtf-cfrg-opaque-06#section-10.3)
+- [[Cfrg] Potential vulnerabilities with OPAQUE](https://mailarchive.ietf.org/arch/msg/cfrg/2W9LoeeiRzAiTWVnDsyxvjYPPmo/)
 
 #### Blogs
 - [Pa(dding|rtitioning) oracles, and another hot take on PAKEs](https://emilymstark.com/2021/02/01/padding-partitioning-oracles-and-another-hot-take-on-pakes.html)
@@ -49,9 +46,59 @@ As the list goes on, the books become increasingly more complicated and mathemat
 - [libsodium Robustness](https://doc.libsodium.org/secret-key_cryptography/aead#robustness)
 - [Improved client-side encryption: Explicit KeyIds and key commitment](https://aws.amazon.com/blogs/security/improved-client-side-encryption-explicit-keyids-and-key-commitment/)
 
+#### Q&A
+- [Do I need a key committing AEAD to be random key robust?](https://old.reddit.com/r/crypto/comments/opm10n/do_i_need_a_key_committing_aead_to_be_random_key/)
+- [Understanding the impact of partitioning oracle attacks on stream ciphers](https://crypto.stackexchange.com/questions/88716/understanding-the-impact-of-partitioning-oracle-attacks-on-stream-ciphers)
+- [Understanding the impact of partitioning oracle attacks on production deployments of ChaCha/Salsa](https://old.reddit.com/r/crypto/comments/m0gc2z/understanding_the_impact_of_partitioning_oracle/)
+- [My breakdown on Partition Oracle Attacks](https://old.reddit.com/r/crypto/comments/n17k3t/my_breakdown_on_partition_oracle_attacks/)
+- [Encrypting h(k) for defeating partition oracle attacks](https://crypto.stackexchange.com/questions/88745/encrypting-hk-for-defeating-partition-oracle-attacks)
+- [Do CCM and EAX provide key commitment?](https://crypto.stackexchange.com/questions/87779/do-ccm-and-eax-provide-key-commitment)
+- [Encrypt-then-HMAC with a single key is secure?](https://crypto.stackexchange.com/questions/88736/encrypt-then-hmac-with-a-single-key-is-secure)
+- [Streaming Interface for authenticated encryption?](https://github.com/LoupVaillant/Monocypher/issues/218)
+
+## MACs
+### HMAC/NMAC
+#### Papers
+- [Keying Hash Functions for Message Authentication](https://cseweb.ucsd.edu/users/mihir/papers/kmd5.pdf)
+- [Message Authentication using Hash Functions - The HMAC Construction](https://cseweb.ucsd.edu/~mihir/papers/hmac-cb.pdf)
+- [New Proofs for NMAC and HMAC: Security without Collision-Resistance](https://eprint.iacr.org/2006/043)
+- [FIPS PUB 198-1 - The Keyed-Hash Message Authentication Code (HMAC)](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.198-1.pdf) 
+- [NIST SP 800-107 - Recommendation for Applications Using Approved Hash Algorithms](https://csrc.nist.gov/publications/detail/sp/800-107/rev-1/final)
+
 #### IETF
-- [Encrypt-then-MAC for Committing AEAD (cAEAD)](https://github.com/samuel-lucas6/draft-lucas-generalised-committing-aead)
-- [The AEGIS family of authenticated encryption algorithms](https://datatracker.ietf.org/doc/html/draft-irtf-cfrg-aegis-aead-00#name-introduction-2)
-- [Properties of AEAD algorithms](https://www.ietf.org/archive/id/draft-bozhko-cfrg-aead-properties-00.html#name-key-commitment)
-- [The OPAQUE Asymmetric PAKE](https://datatracker.ietf.org/doc/html/draft-irtf-cfrg-opaque-06#section-10.3)
-- [[Cfrg] Potential vulnerabilities with OPAQUE](https://mailarchive.ietf.org/arch/msg/cfrg/2W9LoeeiRzAiTWVnDsyxvjYPPmo/)
+- [RFC 2104 - HMAC: Keyed-Hashing for Message Authentication](https://www.rfc-editor.org/rfc/rfc2104)
+- [RFC 6151 - Updated Security Considerations for the MD5 Message-Digest and the HMAC-MD5 Algorithms](https://www.rfc-editor.org/rfc/rfc6151)
+
+#### Blogs
+- [Canonicalization Attacks Against MACs and Signatures](https://soatok.blog/2021/07/30/canonicalization-attacks-against-macs-and-signatures/)
+- [Multiple input MACs](https://neilmadden.blog/2021/10/27/multiple-input-macs/)
+- [The Subtle Hazards of Real-World Cryptography](https://soatok.blog/2020/11/27/the-subtle-hazards-of-real-world-cryptography/)
+- [HMAC Wear-Out?](https://soatok.blog/2021/08/16/lightning-round/#hmac-wearout)
+
+#### Q&A
+- [Why is h(m||k) insecure?](https://crypto.stackexchange.com/questions/5725/why-is-hmk-insecure)
+- [Attacks of the MAC construction H(m∥k) for common hashes H?](https://crypto.stackexchange.com/questions/2669/attacks-of-the-mac-construction-mathcalhm-mathbin-k-for-common-hashes)
+- [Why is H(k∥x) not a secure MAC construction?](https://crypto.stackexchange.com/questions/1070/why-is-hk-mathbin-vert-x-not-a-secure-mac-construction)
+- [Why does a broken hash function undermine an HMAC?](https://crypto.stackexchange.com/questions/2324/why-does-a-broken-hash-function-undermine-an-hmac)
+- [Is HMAC-MD5 considered secure for authenticating encrypted data?](https://crypto.stackexchange.com/questions/9336/is-hmac-md5-considered-secure-for-authenticating-encrypted-data)
+- [Is HMAC-MD5 still secure for commitment or other common uses?](https://crypto.stackexchange.com/questions/25584/is-hmac-md5-still-secure-for-commitment-or-other-common-uses)
+- [Why is HMAC-SHA1 still considered secure?](https://crypto.stackexchange.com/questions/26510/why-is-hmac-sha1-still-considered-secure)
+- [Is HMAC prone to birthday attacks?](https://crypto.stackexchange.com/questions/39303/is-hmac-prone-to-birthday-attacks)
+- [Length of truncated HMAC output](https://crypto.stackexchange.com/questions/42681/length-of-truncated-hmac-output)
+- [Why is a HMAC using a 32bit tag not prone to birthday attacks?](https://crypto.stackexchange.com/questions/41604/why-is-a-hmac-using-a-32bit-tag-not-prone-to-birthday-attacks)
+- [CMAC vs HMAC security strength](https://crypto.stackexchange.com/questions/18534/cmac-vs-hmac-security-strength)
+- [Is the tag in a MAC scheme a fixed size?](https://crypto.stackexchange.com/questions/88991/is-the-tag-in-a-mac-scheme-a-fixed-size)
+- [The difference between MACs vs. HMACs vs. PRFs](https://crypto.stackexchange.com/questions/50860/the-difference-between-macs-vs-hmacs-vs-prfs)
+- [Is there any good attack model of HMAC?](https://crypto.stackexchange.com/questions/95568/is-there-any-good-attack-model-of-hmac)
+- [Which MAC scheme is quantum resistant?](https://crypto.stackexchange.com/questions/7866/which-mac-scheme-is-quantum-resistant)
+- [Can I use HMAC-SHA1 in counter mode to make a stream cipher?](https://crypto.stackexchange.com/questions/12810/can-i-use-hmac-sha1-in-counter-mode-to-make-a-stream-cipher)
+- [What is the security strength of an n-bit HMAC?](https://crypto.stackexchange.com/questions/34430/what-is-the-security-strength-of-an-n-bit-hmac)
+- [Security of N bit HMAC](https://crypto.stackexchange.com/questions/268/security-of-n-bit-hmac)
+- [Purpose of outer key in HMAC](https://crypto.stackexchange.com/questions/3349/purpose-of-outer-key-in-hmac)
+- [Keys in HMAC and NMAC](https://crypto.stackexchange.com/questions/27051/keys-in-hmac-and-nmac)
+- [What do the magic numbers 0x5c and 0x36 in the opad/ipad calc in HMAC do?](https://crypto.stackexchange.com/questions/3005/what-do-the-magic-numbers-0x5c-and-0x36-in-the-opad-ipad-calc-in-hmac-do)
+- [Should HMAC-SHA3 be preferred over H(C(k,M))?](https://crypto.stackexchange.com/questions/35127/should-hmac-sha3-be-preferred-over-hck-m)
+- [Should HMAC or NMAC or plain Keccak be used for a secure MAC?](https://crypto.stackexchange.com/questions/15741/should-hmac-or-nmac-or-plain-keccak-be-used-for-a-secure-mac)
+- [Is HMAC needed for a SHA-3 based MAC?](https://crypto.stackexchange.com/questions/17735/is-hmac-needed-for-a-sha-3-based-mac)
+- [Side channel security of HMAC in software](https://crypto.stackexchange.com/questions/32325/side-channel-security-of-hmac-in-software)
+- [[Cfrg] Related keys in HMAC](https://mailarchive.ietf.org/arch/msg/cfrg/m8rKTuyGYoduFOznrjgIzYXx1LM/)
