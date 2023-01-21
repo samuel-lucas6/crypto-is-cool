@@ -102,3 +102,31 @@ As the list goes on, the books become increasingly more complicated and mathemat
 - [Is HMAC needed for a SHA-3 based MAC?](https://crypto.stackexchange.com/questions/17735/is-hmac-needed-for-a-sha-3-based-mac)
 - [Side channel security of HMAC in software](https://crypto.stackexchange.com/questions/32325/side-channel-security-of-hmac-in-software)
 - [[Cfrg] Related keys in HMAC](https://mailarchive.ietf.org/arch/msg/cfrg/m8rKTuyGYoduFOznrjgIzYXx1LM/)
+
+### Poly1305
+#### Papers
+- [The Poly1305-AES message-authentication code](https://cr.yp.to/mac/poly1305-20050329.pdf)
+- [Cryptography in NaCl](https://cr.yp.to/highspeed/naclcrypto-20090310.pdf)
+
+#### IETF
+- [RFC 8439 - ChaCha20 and Poly1305 for IETF Protocols](https://www.rfc-editor.org/rfc/rfc8439)
+
+#### Blogs
+- [The design of Poly1305](https://loup-vaillant.fr/tutorials/poly1305-design)
+- [libsodium One-time authentication](https://doc.libsodium.org/advanced/poly1305)
+- [A state-of-the-art message-authentication code](https://cr.yp.to/mac.html)
+- [A Go implementation of Poly1305 that makes sense](https://words.filippo.io/a-literate-go-implementation-of-poly1305/)
+
+#### Q&A
+- [Security level of Poly1305 and GMAC](https://crypto.stackexchange.com/questions/94974/security-level-of-poly1305-and-gmac)
+- [Poly1305-AES vs AES-GCM](https://crypto.stackexchange.com/questions/43112/poly1305-aes-vs-aes-gcm)
+- [What happened to Poly1305AES? Is it obsolete?](https://crypto.stackexchange.com/questions/80155/what-happened-to-poly1305aes-is-it-obsolete)
+- [Can Poly1305-AES be used with AES-256?](https://crypto.stackexchange.com/questions/24690/can-poly1305-aes-be-used-with-aes-256)
+- [Why is Poly1305 popular given its 'sudden death' properties?](https://crypto.stackexchange.com/questions/20264/why-is-poly1305-popular-given-its-sudden-death-properties)
+- [Which algorithm has better performance (HMAC, UMAC, and Poly1305)?](https://crypto.stackexchange.com/questions/56429/which-algorithm-has-better-performance-hmac-umac-and-poly1305)
+- [Why not use chacha derivatives (BLAKE, rumba) to make an HMAC for use with chacha? Why use poly1305?](https://crypto.stackexchange.com/questions/75762/why-not-use-chacha-derivatives-blake-rumba-to-make-an-hmac-for-use-with-cha)
+- [Do Carter–Wegman MACs allow key reuse if the MAC tag is kept secret?](https://crypto.stackexchange.com/questions/32216/do-carter-wegman-macs-allow-key-reuse-if-the-mac-tag-is-kept-secret)
+- [What is the function of the secret key “r” in Poly1305?](https://crypto.stackexchange.com/questions/12071/what-is-the-function-of-the-secret-key-r-in-poly1305)
+- [Are poly1305 authenticators distinguishable from random data?](https://crypto.stackexchange.com/questions/17835/are-poly1305-authenticators-distinguishable-from-random-data)
+- [Is Poly1305 an information-theoretically secure MAC?](https://crypto.stackexchange.com/questions/48416/is-poly1305-an-information-theoretically-secure-mac)
+- [Does Poly1305 have weak keys like GCM/GHASH?](https://crypto.stackexchange.com/questions/94959/does-poly1305-have-weak-keys-like-gcm-ghash)
