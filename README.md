@@ -56,6 +56,22 @@ As the list goes on, the books become increasingly more complicated and mathemat
 - [Encrypt-then-HMAC with a single key is secure?](https://crypto.stackexchange.com/questions/88736/encrypt-then-hmac-with-a-single-key-is-secure)
 - [Streaming Interface for authenticated encryption?](https://github.com/LoupVaillant/Monocypher/issues/218)
 
+### XChaCha20-Poly1305
+#### IETF
+- [draft-irtf-cfrg-xchacha - XChaCha: eXtended-nonce ChaCha and AEAD_XChaCha20_Poly1305](https://datatracker.ietf.org/doc/html/draft-irtf-cfrg-xchacha)
+- [xchacha-rfc](https://github.com/bikeshedders/xchacha-rfc)
+
+#### Blogs
+- [Understanding Extended-Nonce Constructions](https://soatok.blog/2021/03/12/understanding-extended-nonce-constructions/)
+- [libsodium XChaCha20-Poly1305 construction](https://doc.libsodium.org/secret-key_cryptography/aead/chacha20-poly1305/xchacha20-poly1305_construction)
+
+#### Q&A
+- [Which version of ChaCha is more secure?](https://crypto.stackexchange.com/questions/73220/which-version-of-chacha-is-more-secure)
+- [XChaCha20-Poly1305 vs Plain ChaCha20-Poly1305 performance](https://crypto.stackexchange.com/questions/102750/xchacha20-poly1305-vs-plain-chacha20-poly1305-performance)
+- [Largest message size for XChaCha20-Poly1305](https://crypto.stackexchange.com/questions/71165/largest-message-size-for-xchacha20-poly1305)
+- [Is XChaCha20-Poly1305 nonce misuse-resistant?](https://crypto.stackexchange.com/questions/53153/is-xchacha20-poly1305-nonce-misuse-resistant)
+- [Is XChacha20 - Poly1305 Quantum resistant?](https://crypto.stackexchange.com/questions/79518/is-xchacha20-poly1305-quantum-resistant)
+
 ## MACs
 ### HMAC/NMAC
 #### Papers
