@@ -56,6 +56,32 @@ As the list goes on, the books become increasingly more complicated and mathemat
 - [Encrypt-then-HMAC with a single key is secure?](https://crypto.stackexchange.com/questions/88736/encrypt-then-hmac-with-a-single-key-is-secure)
 - [Streaming Interface for authenticated encryption?](https://github.com/LoupVaillant/Monocypher/issues/218)
 
+### ChaCha20-Poly1305
+#### Papers
+- [The Security of ChaCha20-Poly1305 in the Multi-user Setting](https://eprint.iacr.org/2023/085)
+- [A Security Analysis of the Composition of ChaCha20 and Poly1305](https://eprint.iacr.org/2014/613)
+
+#### IETF
+- [RFC 8439 - ChaCha20 and Poly1305 for IETF Protocols](https://www.rfc-editor.org/rfc/rfc8439)
+- [RFC 8439 Errata](https://www.rfc-editor.org/errata/rfc8439)
+
+#### Blogs
+- [Do the ChaCha: better mobile performance with cryptography](https://blog.cloudflare.com/do-the-chacha-better-mobile-performance-with-cryptography/)
+- [It takes two to ChaCha (Poly)](https://blog.cloudflare.com/it-takes-two-to-chacha-poly/)
+- [ChaCha20 and Poly1305 for TLS](https://www.imperialviolet.org/2013/10/07/chacha20.html)
+- [libsodium - ChaCha20-Poly1305](https://doc.libsodium.org/secret-key_cryptography/aead/chacha20-poly1305)
+
+#### Q&A
+- [What happens if a nonce is reused in ChaCha20-Poly1305?](https://crypto.stackexchange.com/questions/32075/what-happens-if-a-nonce-is-reused-in-chacha20-poly1305)
+- [Does ChaCha20-Poly1305 need random nonce?](https://crypto.stackexchange.com/questions/66799/does-chacha20-poly1305-need-random-nonce)
+- [Is ChaCha20 alone sufficient for securing data-at-rest?](https://crypto.stackexchange.com/questions/29280/is-chacha20-alone-sufficient-for-securing-data-at-rest)
+- [Stream cipher padding](https://crypto.stackexchange.com/questions/102711/stream-cipher-padding)
+- [Should I include the ciphertext length in an AAD when using Chacha20+Poly1205 AEAD?](https://crypto.stackexchange.com/questions/58036/should-i-include-the-ciphertext-length-in-an-aad-when-using-chacha20poly1205-ae)
+- [Is streaming API to ChaCha20-Poly1305 possible or recommended against?](https://crypto.stackexchange.com/questions/54541/is-streaming-api-to-chacha20-poly1305-possible-or-recommended-against)
+- [chacha20-poly1305 padding and length encoding](https://crypto.stackexchange.com/questions/22489/chacha20-poly1305-padding-and-length-encoding)
+- [Understanding ChaCha20-Poly1305 AEAD](https://crypto.stackexchange.com/questions/66450/understanding-chacha20-poly1305-aead)
+- [NIST LWC finalists (AEAD) vs ChaCha20-Poly1305](https://crypto.stackexchange.com/questions/89990/nist-lwc-finalists-aead-vs-chacha20-poly1305)
+
 ### XChaCha20-Poly1305
 #### IETF
 - [draft-irtf-cfrg-xchacha - XChaCha: eXtended-nonce ChaCha and AEAD_XChaCha20_Poly1305](https://datatracker.ietf.org/doc/html/draft-irtf-cfrg-xchacha)
