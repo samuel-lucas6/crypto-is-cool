@@ -56,6 +56,29 @@ As the list goes on, the books become increasingly more complicated and mathemat
 - [Encrypt-then-HMAC with a single key is secure?](https://crypto.stackexchange.com/questions/88736/encrypt-then-hmac-with-a-single-key-is-secure)
 - [Streaming Interface for authenticated encryption?](https://github.com/LoupVaillant/Monocypher/issues/218)
 
+### AEGIS
+#### Papers
+- [AEGIS: A Fast Authenticated Encryption Algorithm (v1.1)](https://competitions.cr.yp.to/round3/aegisv11.pdf)
+- [MILP-based security evaluation for AEGIS/Tiaoxin-346/Rocca](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/ise2.12109)
+- [Guess-and-Determine Attacks on AEGIS](https://academic.oup.com/comjnl/article-abstract/65/8/2221/6280579?redirectedFrom=fulltext)
+- [Weak Keys in Reduced AEGIS and Tiaoxin](https://eprint.iacr.org/2021/187)
+- [Analyzing the Linear Keystream Biases in AEGIS](https://tosc.iacr.org/index.php/ToSC/article/view/8468)
+- [Linear Biases in AEGIS Keystream](https://eprint.iacr.org/2018/292)
+- [Can Caesar Beat Galois?](https://link.springer.com/chapter/10.1007/978-3-319-93387-0_25)
+
+#### IETF
+- [draft-irtf-cfrg-aegis-aead - The AEGIS family of authenticated encryption algorithms](https://datatracker.ietf.org/doc/html/draft-irtf-cfrg-aegis-aead)
+- [The AEGIS cipher family - Draft](https://github.com/jedisct1/draft-aegis-aead)
+
+#### Presentations
+- [CFRG @IETF113](https://datatracker.ietf.org/meeting/113/materials/slides-113-cfrg-aegis-fast-authenticated-encryption-family-00.pdf)
+- [DIAC 2016](https://www3.ntu.edu.sg/home/wuhj/research/caesar/aegis/DIAC_2016_AEGIS.pdf)
+
+#### Q&A
+- [Should we use the new CAESAR competition ciphers?](https://crypto.stackexchange.com/questions/75293/should-we-use-the-new-caesar-competition-ciphers)
+- [Rationale for NORX/Ketje/Keyak not being chosen for the CAESAR final portfolio](https://crypto.stackexchange.com/questions/72327/rationale-for-norx-ketje-keyak-not-being-chosen-for-the-caesar-final-portfolio)
+- [Side-channel vulnerability of AEGIS naive AES implementation](https://crypto.stackexchange.com/questions/75501/side-channel-vulnerability-of-aegis-naive-aes-implementation)
+
 ### ChaCha20-Poly1305
 #### Papers
 - [The Security of ChaCha20-Poly1305 in the Multi-user Setting](https://eprint.iacr.org/2023/085)
