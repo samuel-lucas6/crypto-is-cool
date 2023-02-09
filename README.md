@@ -28,6 +28,16 @@ As the list goes on, the books become increasingly more complicated and mathemat
 - [Message Franking via Committing Authenticated Encryption](https://eprint.iacr.org/2017/664)
 - [Security of Symmetric Primitives under Incorrect Usage of Keys](https://eprint.iacr.org/2017/288)
 
+#### Presentations
+- [Asiacrypt 2022 Session on Practical Cryptography 2 - AEAD-KI](https://youtu.be/SQKNpTxPwXE)
+- [Efficient Schemes for Committing Authenticated Encryption](https://youtu.be/dZqEtrLh9aM)
+- [USENIX Security '22 - How to Abuse and Fix Authenticated Encryption Without Key Commitment](https://youtu.be/VazqgsBwzOY)
+- [Partitioning Oracle Attacks](https://youtu.be/h-T1bQTt4_Y)
+- [USENIX Security '21 - Partitioning Oracle Attacks](https://youtu.be/j6Q8G3UWHBA)
+- [Hunting Invisible Salamanders: Cryptographic (in)Security with Attacker-Controlled Keys](https://youtu.be/1VwC6tZTqIY)
+- [Fast Message Franking From Invisible Salamanders to Encryptment](https://youtu.be/3M1jIO-jLHI)
+- [Message Franking via Committing Authenticated Encryption](https://youtu.be/ky9nRIl_TqY)
+
 #### IETF
 - [Encrypt-then-MAC for Committing AEAD (cAEAD)](https://github.com/samuel-lucas6/draft-lucas-generalised-committing-aead)
 - [The AEGIS family of authenticated encryption algorithms](https://datatracker.ietf.org/doc/html/draft-irtf-cfrg-aegis-aead-00#name-introduction-2)
@@ -36,6 +46,7 @@ As the list goes on, the books become increasingly more complicated and mathemat
 - [[Cfrg] Potential vulnerabilities with OPAQUE](https://mailarchive.ietf.org/arch/msg/cfrg/2W9LoeeiRzAiTWVnDsyxvjYPPmo/)
 
 #### Blogs
+- [How do I add key commitment to my AEAD scheme in 2023?](https://brycx.github.io/2023/02/07/aead-key-commitment.html)
 - [Pa(dding|rtitioning) oracles, and another hot take on PAKEs](https://emilymstark.com/2021/02/01/padding-partitioning-oracles-and-another-hot-take-on-pakes.html)
 - [Designing New Cryptography for Non-Standard Threat Models](https://soatok.blog/2020/09/09/designing-new-cryptography-for-non-standard-threat-models/)
 - [Why I have settled on XChaCha20+Blake3 as the AE suite of choice for my projects](https://mccarty.io/chacha20-blake3/)
@@ -55,6 +66,7 @@ As the list goes on, the books become increasingly more complicated and mathemat
 - [Do CCM and EAX provide key commitment?](https://crypto.stackexchange.com/questions/87779/do-ccm-and-eax-provide-key-commitment)
 - [Encrypt-then-HMAC with a single key is secure?](https://crypto.stackexchange.com/questions/88736/encrypt-then-hmac-with-a-single-key-is-secure)
 - [Streaming Interface for authenticated encryption?](https://github.com/LoupVaillant/Monocypher/issues/218)
+- [How do I add key commitment to my AEAD scheme in 2023?](https://old.reddit.com/r/crypto/comments/10w1x1k/how_do_i_add_key_commitment_to_my_aead_scheme_in/)
 
 ### AEGIS
 #### Papers
