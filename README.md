@@ -167,6 +167,7 @@ As the list goes on, the books become increasingly more complicated and mathemat
 - [Is the tag in a MAC scheme a fixed size?](https://crypto.stackexchange.com/questions/88991/is-the-tag-in-a-mac-scheme-a-fixed-size)
 - [The difference between MACs vs. HMACs vs. PRFs](https://crypto.stackexchange.com/questions/50860/the-difference-between-macs-vs-hmacs-vs-prfs)
 - [Is there any good attack model of HMAC?](https://crypto.stackexchange.com/questions/95568/is-there-any-good-attack-model-of-hmac)
+- [With HMAC, can an attacker recover the key, given many known plaintext/tag pairs?](https://crypto.stackexchange.com/questions/8500/with-hmac-can-an-attacker-recover-the-key-given-many-known-plaintext-tag-pairs)
 - [Which MAC scheme is quantum resistant?](https://crypto.stackexchange.com/questions/7866/which-mac-scheme-is-quantum-resistant)
 - [Can I use HMAC-SHA1 in counter mode to make a stream cipher?](https://crypto.stackexchange.com/questions/12810/can-i-use-hmac-sha1-in-counter-mode-to-make-a-stream-cipher)
 - [What is the security strength of an n-bit HMAC?](https://crypto.stackexchange.com/questions/34430/what-is-the-security-strength-of-an-n-bit-hmac)
