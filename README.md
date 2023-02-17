@@ -18,6 +18,7 @@ As the list goes on, the books become increasingly more complicated and mathemat
 ## AEADs
 ### Commitment
 #### Papers
+- [Flexible Password-Based Encryption: Securing Cloud Storage and Provably Resisting Partitioning-Oracle Attacks](https://eprint.iacr.org/2023/197)
 - [Authenticated Encryption with Key Identification](https://eprint.iacr.org/2022/1680)
 - [On Committing Authenticated-Encryption](https://eprint.iacr.org/2022/1260)
 - [Efficient Schemes for Committing Authenticated Encryption](https://eprint.iacr.org/2022/268)
