@@ -179,6 +179,7 @@ As the list goes on, the books become increasingly more complicated and mathemat
 - [Should HMAC-SHA3 be preferred over H(C(k,M))?](https://crypto.stackexchange.com/questions/35127/should-hmac-sha3-be-preferred-over-hck-m)
 - [Should HMAC or NMAC or plain Keccak be used for a secure MAC?](https://crypto.stackexchange.com/questions/15741/should-hmac-or-nmac-or-plain-keccak-be-used-for-a-secure-mac)
 - [Is HMAC needed for a SHA-3 based MAC?](https://crypto.stackexchange.com/questions/17735/is-hmac-needed-for-a-sha-3-based-mac)
+- [Can the HMAC of a pre-hash be considered equivalent to an HMAC of the message?](https://crypto.stackexchange.com/questions/77285/can-the-hmac-of-a-pre-hash-be-considered-equivalent-to-an-hmac-of-the-message)
 - [Side channel security of HMAC in software](https://crypto.stackexchange.com/questions/32325/side-channel-security-of-hmac-in-software)
 - [[Cfrg] Related keys in HMAC](https://mailarchive.ietf.org/arch/msg/cfrg/m8rKTuyGYoduFOznrjgIzYXx1LM/)
 
