@@ -22,6 +22,7 @@ As the list goes on, the books become increasingly more complicated and mathemat
 - [Authenticated Encryption with Key Identification](https://eprint.iacr.org/2022/1680)
 - [On Committing Authenticated-Encryption](https://eprint.iacr.org/2022/1260)
 - [Efficient Schemes for Committing Authenticated Encryption](https://eprint.iacr.org/2022/268)
+- [Actually Good Encryption? Confusing Users by Changing Nonces](https://ethz.ch/content/dam/ethz/special-interest/infk/inst-infsec/appliedcrypto/education/theses/project_MircoStauble.pdf)
 - [How to Abuse and Fix Authenticated Encryption Without Key Commitment](https://www.usenix.org/conference/usenixsecurity22/presentation/albertini)
 - [Partitioning Oracle Attacks](https://www.usenix.org/conference/usenixsecurity21/presentation/len)
 - [Key Committing AEADs](https://eprint.iacr.org/2020/1153)
