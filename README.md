@@ -61,6 +61,7 @@ As the list goes on, the books become increasingly more complicated and mathemat
 - [Improved client-side encryption: Explicit KeyIds and key commitment](https://aws.amazon.com/blogs/security/improved-client-side-encryption-explicit-keyids-and-key-commitment/)
 
 #### Q&A
+- [How do I add key commitment to my AEAD scheme in 2023?](https://old.reddit.com/r/crypto/comments/10w1x1k/how_do_i_add_key_commitment_to_my_aead_scheme_in/)
 - [Do I need a key committing AEAD to be random key robust?](https://old.reddit.com/r/crypto/comments/opm10n/do_i_need_a_key_committing_aead_to_be_random_key/)
 - [Understanding the impact of partitioning oracle attacks on stream ciphers](https://crypto.stackexchange.com/questions/88716/understanding-the-impact-of-partitioning-oracle-attacks-on-stream-ciphers)
 - [Understanding the impact of partitioning oracle attacks on production deployments of ChaCha/Salsa](https://old.reddit.com/r/crypto/comments/m0gc2z/understanding_the_impact_of_partitioning_oracle/)
@@ -69,7 +70,9 @@ As the list goes on, the books become increasingly more complicated and mathemat
 - [Do CCM and EAX provide key commitment?](https://crypto.stackexchange.com/questions/87779/do-ccm-and-eax-provide-key-commitment)
 - [Encrypt-then-HMAC with a single key is secure?](https://crypto.stackexchange.com/questions/88736/encrypt-then-hmac-with-a-single-key-is-secure)
 - [Streaming Interface for authenticated encryption?](https://github.com/LoupVaillant/Monocypher/issues/218)
-- [How do I add key commitment to my AEAD scheme in 2023?](https://old.reddit.com/r/crypto/comments/10w1x1k/how_do_i_add_key_commitment_to_my_aead_scheme_in/)
+- [AES-GCM ciphertext that deciphers under two keys](https://crypto.stackexchange.com/questions/84429/aes-gcm-ciphertext-that-deciphers-under-two-keys)
+- [Key Committing AES-GCM](https://crypto.stackexchange.com/questions/100699/key-committing-aes-gcm)
+- [What is the mathematical property stating that it is hard to find a collision in the AES algorithm?](https://crypto.stackexchange.com/questions/61102/what-is-the-mathematical-property-stating-that-it-is-hard-to-find-a-collision-in)
 
 ### AEGIS
 #### Papers
