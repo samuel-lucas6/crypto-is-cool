@@ -32,6 +32,7 @@ As the list goes on, the books become increasingly more complicated and mathemat
 - [Security of Symmetric Primitives under Incorrect Usage of Keys](https://eprint.iacr.org/2017/288)
 
 #### Presentations
+- [RWC 2023 - Session on Advanced Encryption](https://youtu.be/Xh849Ij3lhU)
 - [Asiacrypt 2022 Session on Practical Cryptography 2 - AEAD-KI](https://youtu.be/SQKNpTxPwXE)
 - [Efficient Schemes for Committing Authenticated Encryption](https://youtu.be/dZqEtrLh9aM)
 - [USENIX Security '22 - How to Abuse and Fix Authenticated Encryption Without Key Commitment](https://youtu.be/VazqgsBwzOY)
