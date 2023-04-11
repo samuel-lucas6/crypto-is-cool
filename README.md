@@ -87,9 +87,13 @@ As the list goes on, the books become increasingly more complicated and mathemat
 
 #### IETF
 - [draft-irtf-cfrg-aegis-aead - The AEGIS family of authenticated encryption algorithms](https://datatracker.ietf.org/doc/html/draft-irtf-cfrg-aegis-aead)
-- [The AEGIS cipher family - Draft](https://github.com/jedisct1/draft-aegis-aead)
+- [Draft source and issue tracker](https://github.com/jedisct1/draft-aegis-aead)
+- [Reference implementations](https://github.com/jedisct1/draft-aegis-aead/tree/main/reference-implementations)
+- [AEGIS-128X and AEGIS-256X](https://github.com/jedisct1/aegis-128X)
 
 #### Presentations
+- [FSE 2022 - Weak Keys in Reduced AEGIS and Tiaoxin](https://youtu.be/KbMaGn1WgTE)
+- [FSE 2020 - Analyzing the Linear Keystream Biases in AEGIS](https://youtu.be/tqbhXXu_LBM)
 - [CFRG @IETF113](https://datatracker.ietf.org/meeting/113/materials/slides-113-cfrg-aegis-fast-authenticated-encryption-family-00.pdf)
 - [DIAC 2016](https://www3.ntu.edu.sg/home/wuhj/research/caesar/aegis/DIAC_2016_AEGIS.pdf)
 
