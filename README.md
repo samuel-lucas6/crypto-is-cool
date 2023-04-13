@@ -50,7 +50,7 @@ As the list goes on, the books become increasingly more complicated and mathemat
 - [[Cfrg] Potential vulnerabilities with OPAQUE](https://mailarchive.ietf.org/arch/msg/cfrg/2W9LoeeiRzAiTWVnDsyxvjYPPmo/)
 
 #### Blogs
-- [How do I add key commitment to my AEAD scheme in 2023?](https://brycx.github.io/2023/02/07/aead-key-commitment.html)
+- [How do I add key commitment to my AEAD scheme in 2023?](https://hybridkey.me/posts/2023-02-07-aead-key-commitment/)
 - [Pa(dding|rtitioning) oracles, and another hot take on PAKEs](https://emilymstark.com/2021/02/01/padding-partitioning-oracles-and-another-hot-take-on-pakes.html)
 - [Designing New Cryptography for Non-Standard Threat Models](https://soatok.blog/2020/09/09/designing-new-cryptography-for-non-standard-threat-models/)
 - [Why I have settled on XChaCha20+Blake3 as the AE suite of choice for my projects](https://mccarty.io/chacha20-blake3/)
@@ -220,3 +220,64 @@ As the list goes on, the books become increasingly more complicated and mathemat
 - [Are poly1305 authenticators distinguishable from random data?](https://crypto.stackexchange.com/questions/17835/are-poly1305-authenticators-distinguishable-from-random-data)
 - [Is Poly1305 an information-theoretically secure MAC?](https://crypto.stackexchange.com/questions/48416/is-poly1305-an-information-theoretically-secure-mac)
 - [Does Poly1305 have weak keys like GCM/GHASH?](https://crypto.stackexchange.com/questions/94959/does-poly1305-have-weak-keys-like-gcm-ghash)
+
+## KDFs
+### HKDF
+#### Papers
+- [Cryptographic Extraction and Key Derivation: The HKDF Scheme](https://eprint.iacr.org/2010/264)
+- [Backdoored Hash Functions: Immunizing HMAC and HKDF](https://eprint.iacr.org/2018/362)
+
+#### IETF
+- [RFC 5869 - HMAC-based Extract-and-Expand Key Derivation Function (HKDF)](https://www.rfc-editor.org/rfc/rfc5869)
+
+#### Blogs
+- [Understanding HKDF](https://soatok.blog/2021/11/17/understanding-hkdf/)
+- [How to use HKDF to derive new keys](https://cendyne.dev/posts/2023-01-30-how-to-use-hkdf.html)
+- [Securing HKDF - backdoor resistance using salts](https://hybridkey.me/posts/2018-08-27-securing-hkdf-against-backdoors/)
+
+#### Q&A
+- [What is the difference between KDFs for key derivation vs password stretching?](https://crypto.stackexchange.com/questions/40971/what-is-the-difference-between-kdfs-for-key-derivation-vs-password-stretching)
+- [Key Derivation Functions vs. Password Hashing Schemes](https://crypto.stackexchange.com/questions/70716/key-derivation-functions-vs-password-hashing-schemes)
+- [Why use HKDF for key derivation even it's not time demanding?](https://crypto.stackexchange.com/questions/63754/why-use-hkdf-for-key-derivation-even-its-not-time-demanding)
+- [Why do we even need HKDF's?](https://old.reddit.com/r/crypto/comments/wwltjx/why_do_we_even_need_hkdfs/)
+- [How is HKDF-Expand better than a simple hash?](https://crypto.stackexchange.com/questions/13232/how-is-hkdf-expand-better-than-a-simple-hash)
+- [Choosing between simple Hash and HKDF to derive the second key used for MAC](https://crypto.stackexchange.com/questions/40406/choosing-between-simple-hash-and-hkdf-to-derive-the-second-key-used-for-mac)
+- [Is HMAC a suitable substitute for HKDF?](https://crypto.stackexchange.com/questions/58389/is-hmac-a-suitable-substitute-for-hkdf)
+- [Differences between HMAC and HKDF in a specific case](https://crypto.stackexchange.com/questions/25988/differences-between-hmac-and-hkdf-in-a-specific-case)
+- [Is the output of HKDF uniformly distributed, if my input is not?](https://crypto.stackexchange.com/questions/105953/is-the-output-of-hkdf-uniformly-distributed-if-my-input-is-not)
+- [Which risks are associated with deriving multiple keys from the same DH secret Z?](https://crypto.stackexchange.com/questions/5355/which-risks-are-associated-with-deriving-multiple-keys-from-the-same-dh-secret-z)
+- [can 32 byte shared secret can be given as input to HKDF-SHA512?](https://crypto.stackexchange.com/questions/101159/can-32-byte-shared-secret-can-be-given-as-input-to-hkdf-sha512)
+- [Applications in which you should/shouldn't use a salt with HKDF](https://crypto.stackexchange.com/questions/97975/applications-in-which-you-should-shouldnt-use-a-salt-with-hkdf)
+- [What information to include is the 'info' input for HKDF?](https://crypto.stackexchange.com/questions/6553/what-information-to-include-is-the-info-input-for-hkdf)
+- [HKDF: ikm, salt and info values](https://crypto.stackexchange.com/questions/64150/hkdf-ikm-salt-and-info-values)
+- [HKDF: Difference between salt and info](https://crypto.stackexchange.com/questions/67812/hkdf-difference-between-salt-and-info)
+- [HKDF 'salt' and 'info' parameters: Can they be secrets? Should they be?](https://old.reddit.com/r/crypto/comments/10e65t9/hkdf_salt_and_info_parameters_can_they_be_secrets/?rdt=59490)
+- [What are the typical input lengths for KDFs?](https://crypto.stackexchange.com/questions/41044/what-are-the-typical-input-lengths-for-kdfs)
+- [Minimum length of salt and info for HKDF](https://crypto.stackexchange.com/questions/101163/minimum-length-of-salt-and-info-for-hkdf)
+- [Can salt for HKDF be hardcoded within a program](https://crypto.stackexchange.com/questions/101223/can-salt-for-hkdf-be-hardcoded-within-a-program)
+- [Generating keys with HKDF from Diffie Hellman agreement](https://crypto.stackexchange.com/questions/10453/generating-keys-with-hkdf-from-diffie-hellman-agreement)
+- [Deriving 2 keys using HKDF](https://crypto.stackexchange.com/questions/17830/deriving-2-keys-using-hkdf)
+- [multiple keys via HKDF - whats better, one or two applications of HKDF-extract](https://crypto.stackexchange.com/questions/9318/multiple-keys-via-hkdf-whats-better-one-or-two-applications-of-hkdf-extract)
+- [repeated use of HKDF-extract on the same PRK](https://crypto.stackexchange.com/questions/9312/repeated-use-of-hkdf-extract-on-the-same-prk)
+- [How many different keys can be derived with HKDF before two outputs are identical?](https://crypto.stackexchange.com/questions/88454/how-many-different-keys-can-be-derived-with-hkdf-before-two-outputs-are-identica)
+- [Strength of key derived from a hash function considering the birthday attack](https://crypto.stackexchange.com/questions/46468/strength-of-key-derived-from-a-hash-function-considering-the-birthday-attack)
+- [Calculate the complexity of HKDF with a 96bit salt and a 128bit key?](https://crypto.stackexchange.com/questions/77768/calculate-the-complexity-of-hkdf-with-a-96bit-salt-and-a-128bit-key)
+- [HKDF Bit Security](https://crypto.stackexchange.com/questions/88248/hkdf-bit-security)
+- [Security of HKDF when part of output is exposed](https://crypto.stackexchange.com/questions/46449/security-of-hkdf-when-part-of-output-is-exposed)
+- [Is HKDF one-way, namely given `Ko` it's hard to guess `Ki`?](https://crypto.stackexchange.com/questions/86464/is-hkdf-one-way-namely-given-ko-its-hard-to-guess-ki)
+- [Use of HKDF to get shorter key than digest size](https://crypto.stackexchange.com/questions/100557/use-of-hkdf-to-get-shorter-key-than-digest-size)
+- [How to use HKDF to combine two keys](https://crypto.stackexchange.com/questions/12474/how-to-use-hkdf-to-combine-two-keys)
+- [Maximum output of HKDF](https://crypto.stackexchange.com/questions/41729/maximum-output-of-hkdf)
+- [HKDF-Expand max output length](https://crypto.stackexchange.com/questions/101935/hkdf-expand-max-output-length)
+- [Why does HKDF use HMAC(salt, key) instead of HMAC(key, salt)?](https://crypto.stackexchange.com/questions/30459/why-does-hkdf-use-hmacsalt-key-instead-of-hmackey-salt)
+- [Why does the RFC version of HKDF-Expand start the counter at 1?](https://crypto.stackexchange.com/questions/100360/why-does-the-rfc-version-of-hkdf-expand-start-the-counter-at-1)
+- [Can someone clarify two things about the HKDF by Krawczyk?](https://crypto.stackexchange.com/questions/42272/can-someone-clarify-two-things-about-the-hkdf-by-krawczyk)
+- [Difference between RFC-5869 (HKDF) and SP800-108 (Nist's HMAC-based KDF spec)?](https://crypto.stackexchange.com/questions/41245/difference-between-rfc-5869-hkdf-and-sp800-108-nists-hmac-based-kdf-spec)
+- [Faster alternative to HKDF](https://crypto.stackexchange.com/questions/31889/faster-alternative-to-hkdf)
+- [PBKDF vs HKDF for pretty long key](https://crypto.stackexchange.com/questions/20960/pbkdf-vs-hkdf-for-pretty-long-key)
+- [Use of PBKDF2 when no access to HKDF?](https://crypto.stackexchange.com/questions/43933/use-of-pbkdf2-when-no-access-to-hkdf)
+- [Is PBKDF2 with 1 iteration acceptable for a simple random key expansion?](https://crypto.stackexchange.com/questions/85855/is-pbkdf2-with-1-iteration-acceptable-for-a-simple-random-key-expansion)
+- [Would it be better to use HKDF or SCrypt for deriving a child key?](https://crypto.stackexchange.com/questions/31557/would-it-be-better-to-use-hkdf-or-scrypt-for-deriving-a-child-key)
+- [How is key rotation defined?](https://crypto.stackexchange.com/questions/8808/how-is-key-rotation-defined)
+- [Why derive keys from a master key instead of generating random keys?](https://crypto.stackexchange.com/questions/67863/why-derive-keys-from-a-master-key-instead-of-generating-random-keys)
+- [How to securely combine multiple sources of entropy?](https://crypto.stackexchange.com/questions/42167/how-to-securely-combine-multiple-sources-of-entropy)
