@@ -18,7 +18,7 @@ As the list goes on, the books become increasingly more complicated and mathemat
 ## AEADs
 ### Commitment
 #### Papers
-- [Context Discovery and Commitment Attacks How to Break CCM, EAX, SIV, and More](https://snkth.com/drafts/ec23.pdf)
+- [Context Discovery and Commitment Attacks How to Break CCM, EAX, SIV, and More](https://eprint.iacr.org/2023/526)
 - [Flexible Password-Based Encryption: Securing Cloud Storage and Provably Resisting Partitioning-Oracle Attacks](https://eprint.iacr.org/2023/197)
 - [Authenticated Encryption with Key Identification](https://eprint.iacr.org/2022/1680)
 - [On Committing Authenticated-Encryption](https://eprint.iacr.org/2022/1260)
