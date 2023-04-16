@@ -90,7 +90,7 @@ As the list goes on, the books become increasingly more complicated and mathemat
 - [Draft source and issue tracker](https://github.com/jedisct1/draft-aegis-aead)
 - [Reference implementations](https://github.com/jedisct1/draft-aegis-aead/tree/main/reference-implementations)
 - [AEGIS-128X and AEGIS-256X](https://github.com/jedisct1/aegis-128X)
-- [AEGIS-128L MAC](https://github.com/ziglang/zig/pull/13607)
+- [AEGIS-128L and AEGIS-256 MAC](https://github.com/ziglang/zig/pull/13607)
 
 #### Presentations
 - [FSE 2022 - Weak Keys in Reduced AEGIS and Tiaoxin](https://youtu.be/KbMaGn1WgTE)
