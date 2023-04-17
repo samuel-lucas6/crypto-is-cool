@@ -100,6 +100,7 @@ As the list goes on, the books become increasingly more complicated and mathemat
 
 #### Q&A
 - [Should we use the new CAESAR competition ciphers?](https://crypto.stackexchange.com/questions/75293/should-we-use-the-new-caesar-competition-ciphers)
+- [Lack of response to CAESAR competition](https://crypto.stackexchange.com/questions/95542/lack-of-response-to-caesar-competition)
 - [Rationale for NORX/Ketje/Keyak not being chosen for the CAESAR final portfolio](https://crypto.stackexchange.com/questions/72327/rationale-for-norx-ketje-keyak-not-being-chosen-for-the-caesar-final-portfolio)
 - [Side-channel vulnerability of AEGIS naive AES implementation](https://crypto.stackexchange.com/questions/75501/side-channel-vulnerability-of-aegis-naive-aes-implementation)
 
