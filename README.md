@@ -78,6 +78,7 @@ As the list goes on, the books become increasingly more complicated and mathemat
 ### AEGIS
 #### Papers
 - [AEGIS: A Fast Authenticated Encryption Algorithm (v1.1)](https://competitions.cr.yp.to/round3/aegisv11.pdf)
+- [Adding more parallelism to the AEGIS authenticated encryption algorithms](https://eprint.iacr.org/2023/523)
 - [MILP-based security evaluation for AEGIS/Tiaoxin-346/Rocca](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/ise2.12109)
 - [Guess-and-Determine Attacks on AEGIS](https://academic.oup.com/comjnl/article-abstract/65/8/2221/6280579?redirectedFrom=fulltext)
 - [Weak Keys in Reduced AEGIS and Tiaoxin](https://eprint.iacr.org/2021/187)
