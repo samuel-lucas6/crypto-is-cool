@@ -104,6 +104,21 @@ As the list goes on, the books become increasingly more complicated and mathemat
 - [Rationale for NORX/Ketje/Keyak not being chosen for the CAESAR final portfolio](https://crypto.stackexchange.com/questions/72327/rationale-for-norx-ketje-keyak-not-being-chosen-for-the-caesar-final-portfolio)
 - [Side-channel vulnerability of AEGIS naive AES implementation](https://crypto.stackexchange.com/questions/75501/side-channel-vulnerability-of-aegis-naive-aes-implementation)
 
+### Rocca/Rocca-S
+#### Papers
+- [Rocca: An Efficient AES-based Encryption Scheme for Beyond 5G (Full version)](https://eprint.iacr.org/2022/116)
+- [MILP-based security evaluation for AEGIS/Tiaoxin-346/Rocca](https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/ise2.12109)
+- [Cryptanalysis of Rocca and Feasibility of Its Security Claim](https://tosc.iacr.org/index.php/ToSC/article/view/9852)
+- [Differential Fault Attack on Rocca](https://link.springer.com/chapter/10.1007/978-3-031-08896-4_14)
+- [Efficient Design Strategies Based on the AES Round Function](https://eprint.iacr.org/2016/299)
+
+#### IETF
+- [draft-nakano-rocca-s - Encryption algorithm Rocca-S](https://datatracker.ietf.org/doc/html/draft-nakano-rocca-s)
+
+#### Presentations
+- [FSE 2023 - Cryptanalysis of Rocca and Feasibility of Its Security Claim](https://youtu.be/PhDaptX5abg)
+- [FSE 2022 - Rocca: An Efficient AES-based Encryption Scheme for Beyond 5G](https://youtu.be/Zbwu2GQ3ffY)
+
 ### ChaCha20-Poly1305
 #### Papers
 - [The Security of ChaCha20-Poly1305 in the Multi-user Setting](https://eprint.iacr.org/2023/085)
