@@ -118,6 +118,7 @@ As the list goes on, the books become increasingly more complicated and mathemat
 
 #### Presentations
 - [FSE 2023 - Cryptanalysis of Rocca and Feasibility of Its Security Claim](https://youtu.be/PhDaptX5abg)
+- [CFRG@IETF115 - Encryption algorithm Rocca-S](https://datatracker.ietf.org/meeting/115/materials/slides-115-cfrg-rocca-s)
 - [FSE 2022 - Rocca: An Efficient AES-based Encryption Scheme for Beyond 5G](https://youtu.be/Zbwu2GQ3ffY)
 
 ### ChaCha20-Poly1305
