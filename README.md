@@ -122,6 +122,41 @@ As the list goes on, the books become increasingly more complicated and mathemat
 - [CFRG@IETF115 - Encryption algorithm Rocca-S](https://datatracker.ietf.org/meeting/115/materials/slides-115-cfrg-rocca-s)
 - [FSE 2022 - Rocca: An Efficient AES-based Encryption Scheme for Beyond 5G](https://youtu.be/Zbwu2GQ3ffY)
 
+### Ascon
+#### Papers
+- [Ascon v1.2. Submission to NIST](https://ascon.iaik.tugraz.at/files/asconv12-nist.pdf)
+- [Status Update on Ascon v1.2](https://csrc.nist.gov/csrc/media/Projects/lightweight-cryptography/documents/finalist-round/status-updates/ascon-update.pdf)
+- [Ascon v1.2. Submission to the CAESAR Competition](https://ascon.iaik.tugraz.at/files/asconv12.pdf)
+- [Ascon Publications](https://ascon.iaik.tugraz.at/publications.html)
+- [Cryptology ePrint Archive](https://eprint.iacr.org/search?q=&title=Ascon&authors=&category=&submittedafter=&submittedbefore=&revisedafter=&revisedbefore=)
+
+#### Blogs
+- [NIST Selects ‘Lightweight Cryptography’ Algorithms to Protect Small Devices](https://www.nist.gov/news-events/news/2023/02/nist-selects-lightweight-cryptography-algorithms-protect-small-devices)
+
+#### Q&A
+- [What are the drawbacks of "lightweight crypto"?](https://crypto.stackexchange.com/questions/104038/what-are-the-drawbacks-of-lightweight-crypto)
+- [CAESAR finalists: Lightweight case (Ascon vs ACORN)](https://crypto.stackexchange.com/questions/67683/caesar-finalists-lightweight-case-ascon-vs-acorn)
+- [Is ASCON cipher broken?](https://crypto.stackexchange.com/questions/22449/is-ascon-cipher-broken)
+- [Rationale for NORX/Ketje/Keyak not being chosen for the CAESAR final portfolio](https://crypto.stackexchange.com/questions/72327/rationale-for-norx-ketje-keyak-not-being-chosen-for-the-caesar-final-portfolio)
+- [What is the lightest cipher that provides AES like security?](https://crypto.stackexchange.com/questions/101076/what-is-the-lightest-cipher-that-provides-aes-like-security)
+
+#### Presentations
+- [LWC 2022 – Security](https://ascon.iaik.tugraz.at/files/ascon-slides-lwc2022-security.pdf)
+- [LWC 2022 – Implementation](https://ascon.iaik.tugraz.at/files/ascon-slides-lwc2022-implementation.pdf)
+- [FSE 2022 - Bounds for the Security of Ascon against Differential and Linear Cryptanalysis](https://youtu.be/y-K9axH3uoc)
+- [FSE 2022 - Misuse-Free Key-Recovery and Distinguishing Attacks on 7-Round Ascon](https://youtu.be/i0vnyhOkGw4)
+- [FSE 2022 - Diving Deep into the Weak Keys of Round Reduced Ascon](https://youtu.be/710-AhtNnCQ)
+- [CARDIS 2020 - A Fast and Compact RISC-V Accelerator for Ascon and Friends](https://youtu.be/rC4Ib6T-qm4)
+- [LWC 2020](https://ascon.iaik.tugraz.at/files/ascon-slides-lwc2020.pdf)
+- [LWC 2019](https://ascon.iaik.tugraz.at/files/ascon-slides-lwc2019.pdf)
+- [NIST Lightweight Cryptography Workshop 2019 - Distinguishers for ASCON, DryGASCON, SHAMASH](https://youtu.be/4aU5dmqT0wg)
+- [DIAC 2016](https://ascon.iaik.tugraz.at/files/ascon-slides-diac2016.pdf)
+- [DIAC 2015](https://ascon.iaik.tugraz.at/files/ascon-slides-diac2015.pdf)
+- [22nd Crypto Day 2015](https://ascon.iaik.tugraz.at/files/ascon-slides-cryptoday2015.pdf)
+- [CECC 2015](https://ascon.iaik.tugraz.at/files/ascon-slides-cecc2015.pdf)
+- [CT-RSA 2015](https://ascon.iaik.tugraz.at/files/ascon-slides-ct-rsa2015.pdf)
+- [DIAC 2014](https://ascon.iaik.tugraz.at/files/ascon-slides-diac2014.pdf)
+
 ### ChaCha20-Poly1305
 #### Papers
 - [The Security of ChaCha20-Poly1305 in the Multi-user Setting](https://eprint.iacr.org/2023/085)
