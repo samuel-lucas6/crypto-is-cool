@@ -208,6 +208,17 @@ As the list goes on, the books become increasingly more complicated and mathemat
 - [New Proofs for NMAC and HMAC: Security without Collision-Resistance](https://eprint.iacr.org/2006/043)
 - [FIPS PUB 198-1 - The Keyed-Hash Message Authentication Code (HMAC)](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.198-1.pdf) 
 - [NIST SP 800-107 - Recommendation for Applications Using Approved Hash Algorithms](https://csrc.nist.gov/publications/detail/sp/800-107/rev-1/final)
+- [When Messages are Keys: Is HMAC a dual-PRF?](https://eprint.iacr.org/2023/861)
+- [(The exact security of) Message Authentication Codes](https://core.ac.uk/download/pdf/212151792.pdf)
+- [The Exact PRF-Security of NMAC and HMAC](https://eprint.iacr.org/2014/578)
+- [To Hash or Not to Hash Again? (In)differentiability Results for H^2 and HMAC](https://eprint.iacr.org/2013/382)
+- [Generic Related-key Attacks for HMAC](https://eprint.iacr.org/2012/684)
+- [Forgery and Partial Key-Recovery Attacks on HMAC and NMAC Using Hash Collisions](https://eprint.iacr.org/2006/187)
+- [On Authentication with HMAC and Non-Random Properties](https://eprint.iacr.org/2006/290)
+- [On the Security of HMAC and NMAC Based on HAVAL, MD4, MD5, SHA-0 and SHA-1](https://eprint.iacr.org/2006/187)
+- [Multiple forgery attacks against Message Authentication Codes](https://eprint.iacr.org/2005/161)
+- [On the Security of Iterated Message Authentication Codes](https://cr.yp.to/bib/1999/preneel.pdf)
+- [MDx-MAC and Building Fast MACs from Hash Functions](https://www.esat.kuleuven.be/cosic/publications/article-53.pdf)
 
 #### IETF
 - [RFC 2104 - HMAC: Keyed-Hashing for Message Authentication](https://www.rfc-editor.org/rfc/rfc2104)
