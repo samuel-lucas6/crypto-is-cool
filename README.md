@@ -18,6 +18,9 @@ As the list goes on, the books become increasingly more complicated and mathemat
 ## AEADs
 ### Commitment
 #### Papers
+- [Flexible Authenticated Encryption](https://csrc.nist.gov/csrc/media/Events/2023/third-workshop-on-block-cipher-modes-of-operation/documents/accepted-papers/Flexible%20Authenticated%20Encryption.pdf)
+- [The Landscape of Committing Authenticated Encryption](https://csrc.nist.gov/csrc/media/Events/2023/third-workshop-on-block-cipher-modes-of-operation/documents/accepted-papers/The%20Landscape%20of%20Committing%20Authenticated%20Encryption.pdf)
+- [Key Committing Security of AEZ](https://csrc.nist.gov/csrc/media/Events/2023/third-workshop-on-block-cipher-modes-of-operation/documents/accepted-papers/Key%20Committing%20Security%20of%20AEZ.pdf)
 - [Context Discovery and Commitment Attacks How to Break CCM, EAX, SIV, and More](https://eprint.iacr.org/2023/526)
 - [Flexible Password-Based Encryption: Securing Cloud Storage and Provably Resisting Partitioning-Oracle Attacks](https://eprint.iacr.org/2023/197)
 - [Authenticated Encryption with Key Identification](https://eprint.iacr.org/2022/1680)
@@ -44,8 +47,8 @@ As the list goes on, the books become increasingly more complicated and mathemat
 
 #### IETF
 - [Encrypt-then-MAC for Committing AEAD (cAEAD)](https://github.com/samuel-lucas6/draft-lucas-generalised-committing-aead)
-- [The AEGIS family of authenticated encryption algorithms](https://datatracker.ietf.org/doc/html/draft-irtf-cfrg-aegis-aead-00#name-introduction-2)
-- [Properties of AEAD algorithms](https://www.ietf.org/archive/id/draft-bozhko-cfrg-aead-properties-00.html#name-key-commitment)
+- [The AEGIS family of authenticated encryption algorithms](https://datatracker.ietf.org/doc/html/draft-irtf-cfrg-aegis-aead#name-introduction)
+- [Properties of AEAD algorithms](https://datatracker.ietf.org/doc/html/draft-bozhko-cfrg-aead-properties#name-key-commitment)
 - [The OPAQUE Asymmetric PAKE](https://datatracker.ietf.org/doc/html/draft-irtf-cfrg-opaque-06#section-10.3)
 - [[Cfrg] Potential vulnerabilities with OPAQUE](https://mailarchive.ietf.org/arch/msg/cfrg/2W9LoeeiRzAiTWVnDsyxvjYPPmo/)
 
