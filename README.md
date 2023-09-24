@@ -18,6 +18,7 @@ As the list goes on, the books become increasingly more complicated and mathemat
 ## AEADs
 ### Commitment
 #### Papers
+- [KIVR: Context-Committing Authenticated Encryption Using Plaintext Redundancy and Application to GCM and Variants](https://csrc.nist.gov/csrc/media/Events/2023/third-workshop-on-block-cipher-modes-of-operation/documents/accepted-papers/KIVR%20Context%20Committing%20Authenticated%20Encryption.pdf)
 - [Flexible Authenticated Encryption](https://csrc.nist.gov/csrc/media/Events/2023/third-workshop-on-block-cipher-modes-of-operation/documents/accepted-papers/Flexible%20Authenticated%20Encryption.pdf)
 - [The Landscape of Committing Authenticated Encryption](https://csrc.nist.gov/csrc/media/Events/2023/third-workshop-on-block-cipher-modes-of-operation/documents/accepted-papers/The%20Landscape%20of%20Committing%20Authenticated%20Encryption.pdf)
 - [Key Committing Security of AEZ](https://csrc.nist.gov/csrc/media/Events/2023/third-workshop-on-block-cipher-modes-of-operation/documents/accepted-papers/Key%20Committing%20Security%20of%20AEZ.pdf)
